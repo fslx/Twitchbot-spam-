@@ -20,7 +20,7 @@ var client = new tmi.client(config);
 client.connect();
 
 client.on("connected", (address, port) => {
-    client.action(channel, "faaaaaather!!??")
+    client.action(channel, "!!??")
 })
 
 client.on('chat', (channel, user, message, self) => {
@@ -129,5 +129,5 @@ client.on('chat', (channel, user, message, self) => {
         client.say(channel, 'PogChamp');
     }
 
-    client.action("channel to enter here", `FATHER ${user['display-name']}!`);
+    client.action("channel to enter here", `phrase ${user['display-name']}!`);
 })
