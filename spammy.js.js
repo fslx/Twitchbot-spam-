@@ -43,3 +43,8 @@ if (message === "!disconnect") {
     client.action(disconnect);
 }
 ///this will kill the bots connection to every channel it's roaming in, it's not the best solution, but it's the only one I currently have
+
+
+
+///I'm editing variables and phrases alot as I build this annoying little bot, I'm also running a little Python code that I will
+///get around to posting as soon as I develop it further.
