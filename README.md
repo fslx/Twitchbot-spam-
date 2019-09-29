@@ -21,4 +21,10 @@ npm i tmi.js
 
   mkdir "foldername"
   
+  Or cloning the repo using
+  
+  sudo git-clone https://github.com/fsty/Twitchbot-spam-.git
+  
+  ^ this also works if you are running the Linux kernel subset for Windows in 1903, assuming you have the dependencies.
+  
 
