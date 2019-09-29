@@ -1,5 +1,5 @@
 var tmi = require('tmi.js');
-var channel = 'channels'
+var channel = 'channels' - ///ethically this should be in YOUR channel only, It counts as 1 viewer.
 
 var config = {
     options: {
@@ -32,10 +32,9 @@ client.on('chat', (channel, user, message, self) => {
 
     client.action(channel, `phrase ${user['display-name']}!`);              /// this one is super spammy and It will get the bot
                                                                             /// banned without any doubt
-                                                                            /// there are ways to modify this to only work
-                                                                            /// in one specified channel by setting the channel
-                                                                            /// name like
-                                                                            /// client.action(/// name of channel variable, `phrase ${user['display-name']}!`); 
+                                                                            
+    client.action(your channel here, `"Hello World" ${user['display-name']}!`); /// outputs name of the user and greets with "Hello World"
+                                                                                /// ONLY on "Hello World"
 })  
 
 if (self) return;
