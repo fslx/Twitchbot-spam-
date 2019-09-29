@@ -11,3 +11,14 @@ in terminal :
 
 npm i tmi.js
 
+  Optionally if you are using a Linux distro.
+
+  sudo apt install node.js
+
+  npm i tmi.js
+
+  cd "your dir"
+
+  mkdir "foldername"
+  
+
