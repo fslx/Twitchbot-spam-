@@ -34,7 +34,9 @@ client.on('chat', (channel, user, message, self) => {
                                                                             /// banned without any doubt
                                                                             
     client.action(your channel here, `"Hello World" ${user['display-name']}!`); /// outputs name of the user and greets with "Hello World"
-                                                                                /// ONLY on "Hello World"
+                                                                                /// should in theory ONLY respond to "Hello World"
+                                                                                /// altho I have seen it go nuts with replies a few times.
+                                                                                /// I'm still looking into why this happens.
 })  
 
 if (self) return;
